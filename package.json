@@ -20,5 +20,9 @@
   "bugs": {
     "url": "https://github.com/sebbaum/phonegap-vue/issues"
   },
-  "homepage": "https://github.com/sebbaum/phonegap-vue#readme"
+  "homepage": "https://github.com/sebbaum/phonegap-vue#readme",
+  "dependencies": {
+    "vue": "^2.3.4",
+    "vue-router": "^2.5.3"
+  }
 }

@@ -16,8 +16,9 @@ This should show phonegap's default page.
     ...
 ```
 
-## Adding vuejs
-...
+## Adding vuejs and required components
+1. `npm install vue --save`
+1. `npm install vue-router --save`
 
 # Usage
 
