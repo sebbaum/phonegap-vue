@@ -4,6 +4,7 @@
   "description": "This is a phonegap vuejs 2.0 kickstarter",
   "main": "main.js",
   "scripts": {
+    "serve": "phonegap serve --port 8888",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
