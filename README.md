@@ -20,9 +20,17 @@ This should show phonegap's default page.
 1. `npm install vue --save`
 1. `npm install vue-router --save`
 
+## Installing build tools
+1. `npm install browserify --save-dev`
+1. `npm install watchify --save-dev`
+
 # Usage
 
 
 # References
 * [Phonegap](https://phonegap.com/)
 * [NPM](https://www.npmjs.com/)
+* [Vuejs]()
+* [Vue Router]()
+* [Browserify](https://www.npmjs.com/package/browserify)
+* [Watchify](https://www.npmjs.com/package/browserify)
