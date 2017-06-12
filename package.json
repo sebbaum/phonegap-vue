@@ -4,8 +4,9 @@
   "description": "This is a phonegap vuejs 2.0 kickstarter",
   "main": "main.js",
   "scripts": {
-    "watchify": "",
+    "watchify": "watchify -vd -p www/js/main.js -o www/dist/build.js",
     "serve": "phonegap serve --port 8888",
+    "dev": "npm-run-all --parallel watchify serve",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {

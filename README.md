@@ -15,6 +15,7 @@ This should show phonegap's default page.
     "serve": "phonegap serve --port 8888",
     ...
 ```
+1. Adding `npm-run-all` package
 
 ## Adding vuejs and required components
 1. `npm install vue --save`
