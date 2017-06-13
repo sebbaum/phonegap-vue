@@ -17,6 +17,12 @@ This should show phonegap's default page.
 ```
 1. Adding `npm-run-all` package
 
+## ES2015
+1. Adding babel
+1. Adding babelify: `npm install --save-dev babelify`
+
+
+
 ## Adding vuejs and required components
 1. `npm install vue --save`
 1. `npm install vue-router --save`
@@ -28,6 +34,11 @@ This should show phonegap's default page.
 
 # Usage
 
+# TODOs
+* eslint integration
+* babel & es2015 integration
+* vue is working
+* routes are working
 
 # References
 * [Phonegap](https://phonegap.com/)
@@ -37,3 +48,4 @@ This should show phonegap's default page.
 * [Browserify](https://www.npmjs.com/package/browserify)
 * [Watchify](https://www.npmjs.com/package/browserify)
 * [Vueify](https://www.npmjs.com/package/vueify)
+* [Babelify](https://www.npmjs.com/package/babelify)
