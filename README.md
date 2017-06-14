@@ -59,9 +59,9 @@ Otherwise there will be the error:
 # References
 * [Phonegap](https://phonegap.com/)
 * [NPM](https://www.npmjs.com/)
-* [Vuejs]()
-* [Vue Router]()
+* [Vuejs](https://vuejs.org/)
+* [Vue Router](https://www.npmjs.com/package/vue-router)
 * [Browserify](https://www.npmjs.com/package/browserify)
-* [Watchify](https://www.npmjs.com/package/browserify)
+* [Watchify](https://www.npmjs.com/package/watchify)
 * [Vueify](https://www.npmjs.com/package/vueify)
 * [Babelify](https://www.npmjs.com/package/babelify)
