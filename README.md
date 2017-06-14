@@ -28,24 +28,32 @@ This should show phonegap's default page.
 }
 ```
 
-
-
-## Adding vuejs and required components
-1. `npm install vue --save`
-1. `npm install vue-router --save`
-
 ## Installing build tools
 1. `npm install browserify --save-dev`
 1. `npm install watchify --save-dev`
 1. `npm install vueify --save-dev`
 
+## Adding vuejs and required components
+1. `npm install vue --save`
+1. `npm install vue-router --save`
+1. Configure appropriate vuejs file in package.json
+Otherwise there will be the error:
+```
+[console.error] [Vue warn]: You are using the runtime-only build of Vue where the template compiler is not available. Either pre-compile the templates into render functions, or use the compiler-included build.
+```
+
+```
+"browser": {
+    "vue": "vue/dist/vue.common.js"
+ },
+ ...
+```
+
 # Usage
 
 # TODOs
+* sass integration (scssify)
 * eslint integration
-* babel & es2015 integration
-    * Check the meaning of .babelrc
-* vue is working
 * routes are working
 
 # References

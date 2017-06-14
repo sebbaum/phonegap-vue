@@ -2,35 +2,49 @@
  * main.js is the App's main entry point.
  * The Phonegap app is initialized here.
  */
+import Vue from 'vue'
+
 var phonegap = {
-    // Application Constructor
+    /**
+     * Application Constructor
+     */
     initialize: function() {
         this.bindEvents();
     },
-    // Bind Event Listeners
-    //
-    // Bind any events that are required on startup. Common events are:
-    // 'load', 'deviceready', 'offline', and 'online'.
+
+    /**
+     * Bind Event Listeners
+     *
+     * Bind any events that are required on startup. Common events are:
+     * 'load', 'deviceready', 'offline', and 'online'.
+     */
     bindEvents: function() {
         document.addEventListener('deviceready', this.onDeviceReady, false);
     },
-    // deviceready Event Handler
-    //
-    // The scope of 'this' is the event. In order to call the 'receivedEvent'
-    // function, we must explicitly call 'app.receivedEvent(...);'
+
+    /**
+     * deviceready Event Handler
+     *
+     * The scope of 'this' is the event. In order to call the 'receivedEvent'
+     * function, we must explicitly call 'app.receivedEvent(...);'
+     */
     onDeviceReady: function() {
-        phonegap.receivedEvent('deviceready');
+        // phonegap.receivedEvent('deviceready');
+        console.log('Device is ready');
+        phonegap.initVue();
     },
-    // Update DOM on a Received Event
-    receivedEvent: function(id) {
-        var parentElement = document.getElementById(id);
-        var listeningElement = parentElement.querySelector('.listening');
-        var receivedElement = parentElement.querySelector('.received');
 
-        listeningElement.setAttribute('style', 'display:none;');
-        receivedElement.setAttribute('style', 'display:block;');
-
-        console.log('Received Event: ' + id);
+    /**
+     * Start vuejs
+     */
+    initVue: function() {
+        console.log('Starting vuejs');
+        new Vue({
+            el: '#app',
+            data: {
+                message: 'vue is working'
+            }
+        })
     }
 };
 

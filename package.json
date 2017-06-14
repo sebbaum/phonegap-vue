@@ -21,10 +21,15 @@
   },
   "keywords": [
     "phonegap",
-    "vuejs2"
+    "vuejs2",
+    "browserify",
+    "watchify",
+    "vueify",
+    "babel",
+    "babelify"
   ],
   "author": "Sebastian Baum",
-  "license": "ISC",
+  "license": "GPL",
   "bugs": {
     "url": "https://github.com/sebbaum/phonegap-vue/issues"
   },
