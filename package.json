@@ -4,10 +4,16 @@
   "description": "This is a phonegap vuejs 2.0 kickstarter",
   "main": "main.js",
   "scripts": {
-    "watchify": "watchify -vd -p www/js/main.js -o www/dist/build.js",
+    "watchify": "watchify -vd -e www/js/main.js -o www/dist/build.js",
     "serve": "phonegap serve --port 8888",
     "dev": "npm-run-all --parallel watchify serve",
     "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "browserify": {
+    "transform": [
+      "vueify",
+      "babelify"
+    ]
   },
   "repository": {
     "type": "git",
@@ -28,8 +34,11 @@
     "vue-router": "^2.5.3"
   },
   "devDependencies": {
+    "babel-plugin-transform-runtime": "^6.23.0",
+    "babel-preset-env": "^1.5.2",
     "babelify": "^7.3.0",
     "browserify": "^14.4.0",
+    "npm-run-all": "^4.0.2",
     "vueify": "^9.4.1",
     "watchify": "^3.9.0"
   }

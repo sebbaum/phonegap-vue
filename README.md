@@ -15,11 +15,18 @@ This should show phonegap's default page.
     "serve": "phonegap serve --port 8888",
     ...
 ```
-1. Adding `npm-run-all` package
+1. Adding `npm-run-all` package: `npm install npm-run-all --save-dev`
 
 ## ES2015
 1. Adding babel
 1. Adding babelify: `npm install --save-dev babelify`
+1. Adding presets and plugins: `npm install babel-preset-env --save-dev`
+1. Add `.babelrc`
+```
+{
+  "presets": ["env"]
+}
+```
 
 
 
@@ -37,6 +44,7 @@ This should show phonegap's default page.
 # TODOs
 * eslint integration
 * babel & es2015 integration
+    * Check the meaning of .babelrc
 * vue is working
 * routes are working
 
