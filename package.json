@@ -15,6 +15,9 @@
       "babelify"
     ]
   },
+  "browser": {
+    "vue": "vue/dist/vue.common.js"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/sebbaum/phonegap-vue.git"

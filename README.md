@@ -54,7 +54,7 @@ Otherwise there will be the error:
 # TODOs
 * sass integration (scssify)
 * eslint integration
-* routes are working
+* modularize routes
 
 # References
 * [Phonegap](https://phonegap.com/)

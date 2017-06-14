@@ -25,6 +25,11 @@
       <div id="app" class="app">
         <h1>PhoneGap + Vue</h1>
         <h2>{{ message }}</h2>
+        <router-link to="/foo">Go to Foo</router-link>
+        <router-link to="/bar">Go to Bar</router-link>
+        <!-- route outlet -->
+        <!-- component matched by the route will render here -->
+        <router-view></router-view>
       </div>
       <script type="text/javascript" src="cordova.js"></script>
       <script type="text/javascript" src="dist/build.js"></script>

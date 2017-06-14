@@ -3,6 +3,9 @@
  * The Phonegap app is initialized here.
  */
 import Vue from 'vue'
+import VueRouter from 'vue-router'
+
+Vue.use(VueRouter);
 
 var phonegap = {
     /**
@@ -38,8 +41,23 @@ var phonegap = {
      * Start vuejs
      */
     initVue: function() {
+
+        // These can be imported from other files
+        const Foo = { template: '<div>foo</div>' };
+        const Bar = { template: '<div>bar</div>' };
+
+        const routes = [
+            { path: '/foo', component: Foo },
+            { path: '/bar', component: Bar }
+        ];
+
+        const router = new VueRouter({
+            routes // short for routes: routes
+        });
+
         console.log('Starting vuejs');
         new Vue({
+            router,
             el: '#app',
             data: {
                 message: 'vue is working'
