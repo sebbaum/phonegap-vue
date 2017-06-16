@@ -49,12 +49,21 @@ Otherwise there will be the error:
  ...
 ```
 
+## Integration of eslint
+1. `npm install eslint --save-dev`
+1. `./node_modules/.bin/eslint --init`
+1. Add a rule for `no-console`:
+```json
+"rules": {
+    ...
+    "no-console": "warn",
+    ...
+```
+
 # Usage
 
 # TODOs
 * sass integration (scssify)
-* eslint integration
-* modularize routes
 
 # References
 * [Phonegap](https://phonegap.com/)
