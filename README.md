@@ -62,8 +62,6 @@ Otherwise there will be the error:
 
 # Usage
 
-# TODOs
-* sass integration (scssify)
 
 # References
 * [Phonegap](https://phonegap.com/)
