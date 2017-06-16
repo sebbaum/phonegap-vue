@@ -4,6 +4,8 @@
  * @returns {VueRouter}
  */
 
+import VueRouter from 'vue-router'
+
 export default function routes() {
 
     // These can be imported from other files
