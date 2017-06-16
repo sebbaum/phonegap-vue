@@ -60,6 +60,13 @@ Otherwise there will be the error:
     ...
 ```
 
+## Integration of scssify
+1. `npm install scssify --save-dev`
+1. Add transformer config in `package.json`:
+```json
+
+```
+
 # Usage
 
 # TODOs
@@ -74,3 +81,5 @@ Otherwise there will be the error:
 * [Watchify](https://www.npmjs.com/package/watchify)
 * [Vueify](https://www.npmjs.com/package/vueify)
 * [Babelify](https://www.npmjs.com/package/babelify)
+* [Eslint](http://eslint.org/docs/user-guide/getting-started)
+* [Scssify](https://www.npmjs.com/package/scssify)

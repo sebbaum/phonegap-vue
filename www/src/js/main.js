@@ -6,6 +6,8 @@ import Vue from 'vue'
 import VueRouter from 'vue-router'
 import routes from './routes.js'
 
+require('../sass/main.scss');
+
 Vue.use(VueRouter);
 
 var phonegap = {
